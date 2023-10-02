@@ -1,6 +1,6 @@
 ---
 title: Starting A Blog Hosted On Github Pages
-date: 2023-06-01 20:14 +0300
+date: 2023-10-01 20:14 +0300
 categories: [Blogging, Tutorial]
 tags: [github-pages, blog, personal blog, jekyll]
 author: Nahue
@@ -10,7 +10,7 @@ author: Nahue
 
 I've been thinking about starting a blog for a while now and I was procrastinating quite a bit :D. But, I finally did it and here I am writing my first ever blog post. Suprisingly enough, it will be about my experience setting up my blog and how you can do it too :D.
 
-![Desktop View](/assets/img/posts/2023-06-01-starting-a-blog-on-gh-pages/Intro_meme.jpg){: width="500"}
+![Desktop View](/assets/img/post-2023-10-02-starting/Intro_meme.jpg){: width="500"}
 _Scenario of a developer starting a blog_
 
 ### [YouTube Video Walkthrough](https://youtu.be/m1RYsmOMPLs)
