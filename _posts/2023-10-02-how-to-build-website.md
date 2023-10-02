@@ -28,14 +28,6 @@ Did I convince you? OK, now let's break down the steps to setup your blogging si
 
 This step is to quickly browse through the various Jekyll themes available on various websites and pick one that fits your taste
 
-Few sites where you can grab these templates:
-
-* <https://jekyllthemes.io/>
-* <http://jekyllthemes.org/>
-* <https://jekyll-themes.com/>
-* <https://jamstackthemes.dev/ssg/jekyll/>
-
-I personally picked the [Chirpy theme](https://github.com/cotes2020/chirpy-starter/) since it fits my expectations and it has a Dark theme :D.
 
 
 ## Step 2: Activate Github Pages
@@ -43,33 +35,17 @@ I personally picked the [Chirpy theme](https://github.com/cotes2020/chirpy-start
 Once you pick the Jekyll theme, it's time to host it on Github Pages. The theme you picked usually comes with a set of instructions to configure and the instruction varies between different themes.
 
 For Chirpy theme, the instructions are as follows:
-1. Use the [template](https://github.com/cotes2020/chirpy-starter/generate) to create your own repository.
+1. Use the  to create your own repository.
     - Make sure to name it as `<your-gh-username>.github.io`
     - After doing this step Github actions will build and deploy your blog automatically to `<your-gh-username>.github.io`
     - But you don't want just a template, you want to customized it to yourself. So, let's move on to the next step.
 2. Clone the repository you just created.
-3. Install Ruby and Jekyll on your machine through the [official guide](https://jekyllrb.com/docs/installation/).
-4. Run `bundle install` to install the required gems.
-5. Update the variables of `_config.yml` as needed. Some of them are typical options.
-    - `url` is the address of your website
-    - `avatar` is the profile picture in the sidebar
-    - `timezone` is used to display the date and time of your posts
-    - `lang` is the language of the site
-6. Run `bundle exec jekyll s` to start the local server.
 
-![Template Blog](/assets/img/posts/2023-06-01-starting-a-blog-on-gh-pages/template-blog.PNG){: width="700"}
-_The empty template you should see_
-
-If you face any issues, you can refer to the [Chripy theme's Getting started guide](https://chirpy.cotes.page/posts/getting-started/).
 
 ## Step 3: Setup Your Custom Root Domain
 
 You need to visit one of the domain name registrar to buy a custom domain. There are multiple registrars to choose from: 
 
-* [GoDaddy](https://www.godaddy.com/)
-* [Google Domains](https://domains.google)
-* [Name Cheap](https://www.namecheap.com/)
-* ... and many more
 
 *I personally chose GoDaddy since I had to pay ~10$ for 2-years plan*
 
@@ -90,21 +66,10 @@ After you purchase your domain, go into your domain management portal, click on 
 
 So far, my DNS record looks like this:
 
-![Desktop View](/assets/img/posts/2023-06-01-starting-a-blog-on-gh-pages/DNS-settings.PNG){: width="700"}
-_My GoDaddy's DNS records_
-
 ### Configure Github Pages
 
 Now that you have your domain's DNS setup, Let's head back to Github and configure your Github Pages to use your custom domain.
 
-1. Go to your repository's settings page.
-2. Scroll down to the **Pages** section.
-3. Under **Custom domain** enter your domain name and click **Save**.
-
-![Custom Domain](/assets/img/posts/2023-06-01-starting-a-blog-on-gh-pages/github-pages-custom-domain.PNG){: width="700"}
-_My Github Pages Custom Domain page_
-
-***Best Practice :*** Click on **Enforce HTTPS** to serve your blog via secure SSL connection. Your site will be configured with a free SSL certificate from [Let's Encrypt](https://letsencrypt.org/).
 
 ## Bonus Tip: Test Your Site
 
